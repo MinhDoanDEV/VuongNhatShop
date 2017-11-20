@@ -191,6 +191,24 @@
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VuongNhatShop.Common\VuongNhatShop.Common.csproj">
+      <Project>{e8dc3dc2-7088-43b2-bfb2-e4994b98ebb4}</Project>
+      <Name>VuongNhatShop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuongNhatShop.Data\VuongNhatShop.Data.csproj">
+      <Project>{350387d8-14f4-467f-8e84-c7f3da4aa522}</Project>
+      <Name>VuongNhatShop.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuongNhatShop.Model\VuongNhatShop.Model.csproj">
+      <Project>{30e362a5-2854-4631-9629-371ef473a301}</Project>
+      <Name>VuongNhatShop.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuongNhatShop.Service\VuongNhatShop.Service.csproj">
+      <Project>{e9a89b07-8a8d-4552-b0e1-72f1c84cf7fe}</Project>
+      <Name>VuongNhatShop.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

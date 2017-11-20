@@ -42,6 +42,20 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VuongNhatShop.Common\VuongNhatShop.Common.csproj">
+      <Project>{e8dc3dc2-7088-43b2-bfb2-e4994b98ebb4}</Project>
+      <Name>VuongNhatShop.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuongNhatShop.Data\VuongNhatShop.Data.csproj">
+      <Project>{350387d8-14f4-467f-8e84-c7f3da4aa522}</Project>
+      <Name>VuongNhatShop.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\VuongNhatShop.Model\VuongNhatShop.Model.csproj">
+      <Project>{30e362a5-2854-4631-9629-371ef473a301}</Project>
+      <Name>VuongNhatShop.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
