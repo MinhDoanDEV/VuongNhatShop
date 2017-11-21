@@ -38,7 +38,7 @@ namespace VuongNhatShop.Model.Models
         [MaxLength(50)]
         public string Facebook { set; get; }
 
-        [MaxLength(50)]
+      
         public bool Status { set; get; }
 
         public int? DisplayOrder { set; get; }
