@@ -17,5 +17,7 @@ namespace VuongNhatShop.Data.Repositories
         public ProductRepository(IDbFactory dbFactory) : base(dbFactory)
         {
         }
+
+        
     }
 }
