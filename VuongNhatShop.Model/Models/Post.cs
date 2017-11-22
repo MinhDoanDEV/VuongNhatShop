@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using VuongNhatShop.Model.Abstract;
+using System.Collections;
 
 namespace VuongNhatShop.Model.Models
 {
@@ -42,5 +43,7 @@ namespace VuongNhatShop.Model.Models
 
         [ForeignKey("CategoryID")]
         public virtual PostCategory PostCategory { set; get; }
+
+        public virtual IEnumerable<PostTag> PostTags { set; get; }
     }
 }
